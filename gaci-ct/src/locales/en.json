@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "hours": "Hours",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Approved Center — Boudouaou El Bahri",
+    "title": "Fast & Reliable",
+    "titleHighlight": "Vehicle Inspection",
+    "subtitle": "Professional inspection service in Boudouaou-El-Bahri. Your safety is our absolute priority.",
+    "cta": "Get In Touch",
+    "ctaSecondary": "Our Services",
+    "stat1": "Fast",
+    "stat1Sub": "1h maximum",
+    "stat2": "Certified",
+    "stat2Sub": "Official",
+    "stat3": "Open",
+    "stat3Sub": "6 days / 7"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "A Trusted Service, Always",
+    "description": "GACI Boudouaou El Bahri Technical Inspection Center is an approved facility offering fast, reliable automotive technical inspection services compliant with Algerian regulations.",
+    "description2": "Our team of qualified technicians is committed to providing you with a transparent, efficient, and time-respectful service.",
+    "feat1": "Qualified & experienced staff",
+    "feat2": "Certified modern equipment",
+    "feat3": "Results in under one hour",
+    "feat4": "Warm & professional welcome"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "What We Offer",
+    "subtitle": "Comprehensive services to ensure your vehicle's safety and compliance.",
+    "s1Title": "Technical Inspection",
+    "s1Desc": "Full official inspection of your vehicle compliant with current Algerian regulations.",
+    "s2Title": "Complete Inspection",
+    "s2Desc": "In-depth verification of all mechanical, electrical and body systems of the vehicle.",
+    "s3Title": "Safety Check",
+    "s3Desc": "Rigorous inspection of safety equipment: brakes, tires, lighting and steering.",
+    "s4Title": "Quick Diagnostic",
+    "s4Desc": "Express technical assessment by our experts to quickly identify any anomalies.",
+    "duration": "Average duration: 1h max",
+    "cta": "Book an Appointment"
+  },
+  "hours": {
+    "badge": "Opening Hours",
+    "title": "We Are Here For You",
+    "subtitle": "Open 6 days out of 7 for your convenience.",
+    "satThur": "Saturday – Thursday",
+    "time": "07:30 – 16:30",
+    "friday": "Friday",
+    "closed": "Closed",
+    "note": "No appointment needed — come directly to the center.",
+    "open": "Open"
+  },
+  "reviews": {
+    "badge": "Customer Reviews",
+    "title": "What They Say About Us",
+    "subtitle": "Our customers' satisfaction is our greatest reward.",
+    "r1Name": "Karim B.",
+    "r1Text": "Fast and professional service. Welcoming staff, I was attended to quickly. I highly recommend this center.",
+    "r2Name": "Nadia M.",
+    "r2Text": "Good welcome and fast service, plan for 1 hour maximum no more. Serious technicians who listen.",
+    "r3Name": "Sofiane A.",
+    "r3Text": "Very good center, clean and well organized. The inspection was done quickly and results delivered on time.",
+    "googleCta": "⭐ Leave a Review on Google",
+    "verified": "Verified review"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Come Visit Us",
+    "subtitle": "Our team is available to answer all your questions.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressVal": "Boudouaou-El-Bahri, Boumerdès, Algeria",
+    "directions": "Get Directions",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Your trusted technical inspection center in Boudouaou-El-Bahri.",
+    "links": "Quick Links",
+    "contact": "Contact",
+    "hours": "Hours",
+    "copyright": "© 2025 GACI Technical Inspection. All rights reserved.",
+    "legal": "Center approved by the competent Algerian authorities."
+  }
+}

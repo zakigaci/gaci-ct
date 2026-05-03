@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "hours": "Horaires",
+    "reviews": "Avis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Centre Agréé — Boudouaou-El-Bahri",
+    "title": "Contrôle Technique",
+    "titleHighlight": "Rapide & Fiable",
+    "subtitle": "Service professionnel à Boudouaou-El-Bahri. Votre sécurité, notre priorité absolue.",
+    "cta": "Prendre Contact",
+    "ctaSecondary": "Nos Services",
+    "stat1": "Rapide",
+    "stat1Sub": "1h maximum",
+    "stat2": "Agréé",
+    "stat2Sub": "Officiel",
+    "stat3": "Ouvert",
+    "stat3Sub": "6j/7"
+  },
+  "about": {
+    "badge": "À Propos de Nous",
+    "title": "Un Service de Confiance Depuis Toujours",
+    "description": "Le Centre de Contrôle Technique GACI Boudouaou El Bahri est un établissement agréé offrant des prestations de contrôle technique automobiles rapides, fiables et conformes aux normes en vigueur en Algérie.",
+    "description2": "Notre équipe de techniciens qualifiés s'engage à vous fournir un service transparent, efficace et respectueux de votre temps.",
+    "feat1": "Personnel qualifié & expérimenté",
+    "feat2": "Équipements modernes certifiés",
+    "feat3": "Résultats en moins d'une heure",
+    "feat4": "Accueil chaleureux & professionnel"
+  },
+  "services": {
+    "badge": "Nos Prestations",
+    "title": "Ce Que Nous Proposons",
+    "subtitle": "Des services complets pour assurer la sécurité et la conformité de votre véhicule.",
+    "s1Title": "Contrôle Technique",
+    "s1Desc": "Inspection officielle complète de votre véhicule conforme aux réglementations algériennes en vigueur.",
+    "s2Title": "Inspection Complète",
+    "s2Desc": "Vérification approfondie de tous les systèmes mécaniques, électriques et de carrosserie du véhicule.",
+    "s3Title": "Vérification Sécurité",
+    "s3Desc": "Contrôle rigoureux des équipements de sécurité : freins, pneumatiques, éclairage et direction.",
+    "s4Title": "Diagnostic Rapide",
+    "s4Desc": "Bilan technique express réalisé par nos experts pour identifier rapidement les anomalies.",
+    "duration": "Durée moyenne : 1h max",
+    "cta": "Prendre Rendez-vous"
+  },
+  "hours": {
+    "badge": "Horaires d'Ouverture",
+    "title": "Nous Sommes Là Pour Vous",
+    "subtitle": "Ouvert 6 jours sur 7 pour votre commodité.",
+    "satThur": "Samedi – Jeudi",
+    "time": "07:30 – 16:30",
+    "friday": "Vendredi",
+    "closed": "Fermé",
+    "note": "Pas besoin de rendez-vous — venez directement au centre.",
+    "open": "Ouvert"
+  },
+  "reviews": {
+    "badge": "Avis Clients",
+    "title": "Ce Qu'ils Disent de Nous",
+    "subtitle": "La satisfaction de nos clients est notre plus belle récompense.",
+    "r1Name": "Karim B.",
+    "r1Text": "Service rapide et professionnel. Personnel accueillant, j'ai été pris en charge rapidement. Je recommande vivement ce centre.",
+    "r2Name": "Nadia M.",
+    "r2Text": "Bonne accueil et service rapide, prévoir 1 heure max pas plus. Techniciens sérieux et à l'écoute.",
+    "r3Name": "Sofiane A.",
+    "r3Text": "Très bon centre, propre et bien organisé. Le contrôle a été effectué rapidement et le résultat fourni dans les délais.",
+    "googleCta": "⭐ Laisser un avis sur Google",
+    "verified": "Avis vérifié"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Venez Nous Rendre Visite",
+    "subtitle": "Notre équipe est disponible pour répondre à toutes vos questions.",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "addressVal": "Boudouaou-El-Bahri, Boumerdès, Algérie",
+    "directions": "Obtenir l'itinéraire",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Votre centre de contrôle technique de confiance à Boudouaou-El-Bahri.",
+    "links": "Liens Rapides",
+    "contact": "Contact",
+    "hours": "Horaires",
+    "copyright": "© 2025 GACI Contrôle Technique. Tous droits réservés.",
+    "legal": "Centre agréé par les autorités compétentes algériennes."
+  }
+}
