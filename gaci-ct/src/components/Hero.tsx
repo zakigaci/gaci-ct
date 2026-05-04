@@ -13,66 +13,51 @@ export default function Hero() {
   ];
 
   return (
-    <section id="hero" className="hero-bg min-h-screen flex flex-col justify-center">
-      {/* Decorative grid lines */}
-      <div className="hero-content absolute inset-0 opacity-5" style={{ zIndex: 2 }}>
+    <section id="hero" className="hero-bg relative overflow-hidden">
+      <div
+        className="hero-content absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none"
+        style={{
+          background: 'linear-gradient(135deg, transparent 40%, #28A745 100%)',
+          clipPath: 'polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%)',
+        }}
+      />
+      <div className="hero-content absolute inset-0 opacity-5 pointer-events-none">
         <div
           className="w-full h-full"
           style={{
-            backgroundImage: `
-              linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px),
-              linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)
-            `,
-            backgroundSize: '60px 60px',
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px)`,
+            backgroundSize: '50px 50px',
           }}
         />
       </div>
-
-      {/* Glow orbs */}
       <div
-        className="hero-content absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-10 pointer-events-none"
+        className="hero-content absolute top-0 left-0 w-80 h-80 rounded-full pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, #28A745 0%, transparent 70%)',
-          filter: 'blur(60px)',
-          zIndex: 2,
-        }}
-      />
-      <div
-        className="hero-content absolute bottom-1/4 right-1/4 w-72 h-72 rounded-full opacity-8 pointer-events-none"
-        style={{
-          background: 'radial-gradient(circle, #0B3C5D 0%, transparent 70%)',
-          filter: 'blur(80px)',
-          zIndex: 2,
+          background: 'radial-gradient(circle, rgba(40,167,69,0.18) 0%, transparent 70%)',
+          filter: 'blur(40px)',
         }}
       />
 
-      <div className="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20 w-full">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: text */}
-          <div className="space-y-8">
-            {/* Badge */}
+      <div className="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
+          <div className="space-y-6">
             <div className="animate-fade-up">
               <span className="badge">
                 <span className="w-2 h-2 rounded-full bg-accent-500 animate-pulse-slow" />
                 {t('hero.badge')}
               </span>
             </div>
-
-            {/* Title */}
             <div className="animate-fade-up delay-100">
-              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.05] tracking-tight">
+              <h1 className="font-display text-5xl sm:text-6xl lg:text-6xl font-black text-white leading-tight tracking-tight">
                 {t('hero.title')}
                 <br />
                 <span className="gradient-text">{t('hero.titleHighlight')}</span>
               </h1>
             </div>
-
-            {/* Subtitle */}
-            <p className="text-lg text-white/65 leading-relaxed max-w-lg animate-fade-up delay-200">
-              {t('hero.subtitle')}
-            </p>
-
-            {/* CTA row */}
+            <div className="animate-fade-up delay-200 flex items-start gap-3">
+              <div className="h-1 w-16 mt-3 flex-shrink-0 rounded-full" style={{ background: 'linear-gradient(90deg, #28A745, #34d058)' }} />
+              <p className="text-base text-white/65 leading-relaxed">{t('hero.subtitle')}</p>
+            </div>
             <div className="flex flex-wrap gap-4 animate-fade-up delay-300">
               <a href="#contact" className="btn-primary text-base">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -87,55 +72,50 @@ export default function Hero() {
                 </svg>
               </a>
             </div>
-
-            {/* Stats row */}
-            <div className="flex gap-6 pt-4 animate-fade-up delay-400">
+            <div className="grid grid-cols-3 gap-3 animate-fade-up delay-400">
               {stats.map((s, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col items-start p-4 rounded-xl glass"
-                >
+                <div key={i} className="flex flex-col items-center text-center p-4 rounded-2xl glass border border-white/10">
                   <span className="text-2xl mb-1">{s.icon}</span>
-                  <span className="font-display font-800 text-white text-lg leading-none">{s.value}</span>
+                  <span className="font-display font-black text-white text-xl leading-none">{s.value}</span>
                   <span className="text-white/50 text-xs mt-1">{s.sub}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Right: floating logo card */}
-          <div className="hidden lg:flex justify-center items-center animate-fade-up delay-300">
-            <div className="relative">
-              {/* Outer glow ring */}
+          <div className="flex justify-center items-center animate-fade-up delay-300">
+            <div className="relative w-full max-w-sm">
               <div
-                className="absolute inset-0 rounded-3xl opacity-30"
-                style={{ background: 'radial-gradient(circle, #28A745 0%, transparent 70%)', filter: 'blur(30px)' }}
+                className="absolute -inset-1 rounded-3xl opacity-40"
+                style={{ background: 'linear-gradient(135deg, #28A745, #0B3C5D)', filter: 'blur(8px)' }}
               />
-              {/* Card */}
-              <div className="relative glass rounded-3xl p-10 animate-float border border-white/10 shadow-2xl">
+              <div className="relative glass rounded-3xl p-8 animate-float border border-white/10 shadow-2xl">
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-3 h-3 rounded-full bg-green-400 animate-pulse" />
+                  <span className="text-white/60 text-xs font-semibold tracking-widest uppercase">Centre Agréé</span>
+                </div>
                 <Image
                   src="/logo.png"
                   alt="GACI Contrôle Technique"
-                  width={320}
-                  height={320}
-                  className="object-contain drop-shadow-2xl"
+                  width={280}
+                  height={280}
+                  className="object-contain drop-shadow-2xl mx-auto"
                   priority
                 />
-                {/* Certified badge */}
-                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-accent-500 text-white text-xs font-bold px-5 py-2 rounded-full shadow-btn whitespace-nowrap">
-                  ✓ Centre Agréé Officiel
+                <div
+                  className="mt-6 rounded-xl p-3 flex items-center justify-between"
+                  style={{ background: 'rgba(40,167,69,0.12)', border: '1px solid rgba(40,167,69,0.2)' }}
+                >
+                  <span className="text-white/70 text-xs">Boudouaou-El-Bahri</span>
+                  <span className="text-green-400 text-xs font-bold">✓ Officiel</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="mt-20 flex justify-center animate-fade-in delay-600">
-          <a
-            href="#about"
-            className="flex flex-col items-center gap-2 text-white/40 hover:text-white/70 transition-colors group"
-          >
+        <div className="mt-12 flex justify-center animate-fade-in delay-600">
+          <a href="#about" className="flex flex-col items-center gap-2 text-white/40 hover:text-white/70 transition-colors group">
             <span className="text-xs tracking-widest uppercase">Découvrir</span>
             <div className="w-6 h-10 rounded-full border border-white/20 flex items-start justify-center pt-1.5 group-hover:border-white/40 transition-colors">
               <div className="w-1 h-2.5 bg-white/40 rounded-full animate-bounce" />
