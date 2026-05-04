@@ -41,7 +41,7 @@ export default function Contact() {
       ),
       label: t('contact.address'),
       value: t('contact.addressVal'),
-      href:  'https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8',
+      href: 'https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8',
       color: '#0B3C5D',
       bg: '#E3F2FD',
     },
