@@ -151,7 +151,7 @@ export default function Contact() {
                     <p className="text-white/50 text-sm mt-1">Boudouaou-El-Bahri, Boumerdès</p>
                   </div>
                   <a
-                    href= 'https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8',
+                    href="https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary text-sm"
@@ -183,13 +183,4 @@ export default function Contact() {
                   <div className="flex items-start gap-3">
                     <span className="text-red-400 mt-0.5 flex-shrink-0">✗</span>
                     <span>Fermé le vendredi</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+                  </div
