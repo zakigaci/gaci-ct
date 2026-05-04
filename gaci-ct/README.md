@@ -2,7 +2,7 @@
 
 Professional website for Controle Technique GACI Boudouaou El Bahri.
 
-## Stack
+## Stack 
 - **Next.js 14** (App Router, Static Export)
 - **Tailwind CSS**
 - **TypeScript**
