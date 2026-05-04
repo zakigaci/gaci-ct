@@ -183,4 +183,13 @@ export default function Contact() {
                   <div className="flex items-start gap-3">
                     <span className="text-red-400 mt-0.5 flex-shrink-0">✗</span>
                     <span>Fermé le vendredi</span>
-                  </div
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
