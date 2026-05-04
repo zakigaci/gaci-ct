@@ -41,7 +41,8 @@ export default function Contact() {
       ),
       label: t('contact.address'),
       value: t('contact.addressVal'),
-      href: 'https://maps.google.com/?q=Boudouaou-El-Bahri,Algeria',
+      href: 'https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8
+',
       color: '#0B3C5D',
       bg: '#E3F2FD',
     },
@@ -151,7 +152,8 @@ export default function Contact() {
                     <p className="text-white/50 text-sm mt-1">Boudouaou-El-Bahri, Boumerdès</p>
                   </div>
                   <a
-                    href="https://maps.google.com/?q=Boudouaou-El-Bahri,Boumerdes,Algeria"
+                    href="https://maps.app.goo.gl/xYgwLvqT5BYM6LgD8
+"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary text-sm"
